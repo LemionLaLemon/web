@@ -1,13 +1,35 @@
 <!DOCTYPE html>
+<div>
+    <!--css elements-->
+    <style>
+        .large-button {
+          font-size: 24px;
+          padding: 16px 32px;
+          border-radius: 8px;
+          background-color: #4e4a4a;
+          color: #ffffff;
+          border: none;
+          cursor: pointer;
+          transition: all 0.3s ease;
+        }
+      
+        .large-button:hover {
+          background-color: #ffffff;
+          color: #4e4a4a;
+        }
+      </style>
+</div>
+
+<!--main-->
 <html>
     <head>
         <center><h1>Welcome!</h1></center>
     </head>
     <!-- Divider, code below is 2 buttons, the divider element is aligned to right. -->
     <div style="display: flex; justify-content: flex-end; align-items: center;">
-        <form action ="https://lemonsite-2.netlify.app"><button>School stuff</button></form><br>
-        <form action = ""><button>N/A</button></form><br>
-        <form action = "https://youtu.be/dQw4w9WgXcQ"><button>rickroll</button></form><br>
+        <form action ="https://lemonsite-2.netlify.app"><button class="large-button">School stuff</button></form><br>
+        <form action = ""><button class="large-button">N/A</button></form><br>
+        <form action = "https://youtu.be/dQw4w9WgXcQ"><button class="large-button">rickroll</button></form><br>
       </div>      
     <!-- end of comment-->
     <hr>
